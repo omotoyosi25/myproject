@@ -6,13 +6,12 @@ import Filtereditems from './components/Filtereditems'
 
 export default function page() {
   return (
-    <main className=''>
-      
+    <main>
       <Navbar/>
     <section className='relative top[100px]'>
       <EmblaCarousel/>
       <Filtereditems />
-      <div className=''> 
+      <div> 
       <BlogCard card = {blogCard}/>
       </div>
       </section>
