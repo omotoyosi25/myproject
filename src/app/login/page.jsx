@@ -1,6 +1,6 @@
 
 import { FaUser,  FaLock } from "react-icons/fa";
-import styles from '../style.module.css'
+import styles from '../style.module.css';
 import Link from "next/link";
 
 
