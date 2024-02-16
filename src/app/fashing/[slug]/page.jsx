@@ -20,7 +20,7 @@ export default function pages({params}) {
 
         <div className='m-auto w-[60%]'>
             {tro.content.map(troc => (
-                <p className='mt-4 text-justify'>{troc}</p>
+                <p key={index} className='mt-4 text-justify'>{troc}</p>
             ))}
         </div>
     </main>

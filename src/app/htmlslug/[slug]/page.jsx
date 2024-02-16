@@ -19,7 +19,7 @@ export default function page({params}) {
       </div>
           <div className="w-[60%] m-auto">
             {coding.content.map(cont =>(
-              <p className="mt-4 text-justify">{cont}</p>
+              <p key={index} className="mt-4 text-justify">{cont}</p>
               ))}
           </div>
     </main>
