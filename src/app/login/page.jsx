@@ -8,7 +8,7 @@ export default function page() {
   return (
     <main className={`flex justify-center items-center  min-h-screen ${styles.bromo}`}>
         <div className={`w-96 text-white rounded p-10 ${styles.background}`}>
-          <form action="">
+          <form action=".">
             <h1 className=" text-center font-bold text-2xl ">Login</h1>
             <div className='relative w-full h-12  my-6'>
               <input type="text" placeholder='username'   required className={`w-full h-full bg-transparent border-none outline-none ${styles.input}`}/>
@@ -25,8 +25,7 @@ export default function page() {
             <button type='submit' className={`w-[100%] h-11 bg-white text-black border-none outline-none mt-5 ${styles.button}`}>Login</button>
 
             <div className=" text-xs text-center mt-5">
-              <p>Don't have an account <Link href="/started" className="text-white font-bold hover:underline">Register</Link></p>
-            </div>
+            <p>Don&apos;t have an account <Link href="/started" className="text-white font-bold hover:underline">Register</Link></p>            </div>
           </form>
         </div>
         </main>
