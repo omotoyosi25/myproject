@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import {AiFillStar} from 'react-icons/ai'
 
 
 export const blogCard = [
@@ -211,31 +210,27 @@ export const blogCard = [
     }
 ]
 
-const cardDetails = blogCard.map(art => (
-    <article key={Math.random()} className='rounded-2xl bottom-2 border-solid border-gray-500'>
-        <Link href={`/blog/${art.sub_title.split(' ').join('')}`}>
-        <div className='flex items-center space-x-2 py-6'>
+const cardDetails = blogCard.map((art,index) => (
+    <article key={index} className='rounded-2xl bottom-2 border-solid border-gray-500'>
+        <div className='grid grid-cols-2 pl-8 space-x-2 py-6'>
             <div>
-        <main>
-            <Image src={art.blog_img} alt='blog' width={50} height={50} className='rounded-full'/>
-            <h2>{art.blogger}</h2>
-        </main>
-        <div>
-            <h2 className='font-bold text-3xl capitalize'>{art.blog_title}</h2>
-            <h2 className='text-xl'>{art.sub_title}</h2>
-        </div>
-        <div className='space-x-2'>
-            <span>{art.date}</span>
-            <span>{art.read_time}</span>
-            <span className='bg-gray-200 rounded-3xl w-[100px] text-center py-1 px-6'>{art.category}</span>
-            <AiFillStar className='text-orange-400'/>
+        <Link href={`/blog/${art.sub_title.split(' ').join('')}`}>
+                <div>
+                    <h2 className='font-bold text-3xl capitalize'>{art.blog_title}</h2>
+                    <h2 className='text-xl'>{art.sub_title}</h2>
+                </div>
+        </Link>
+
+                <div className='space-x-2'>
+                    <span>{art.date}</span>
+                    <span>{art.read_time}</span>
+                    <span className='bg-gray-200 rounded-3xl w-[100px] text-center py-1 px-6'>{art.category}</span>
+                    </div>
             </div>
-        </div>
             <div>
                 <Image src={art.image} alt='blog-img' width={150} height={100} />
             </div>
         </div>
-        </Link>
     </article>
 ))
 

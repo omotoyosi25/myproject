@@ -5,7 +5,7 @@ export default function page({params}) {
   const platform = blogCard.find(art => art.sub_title.split(' ').join('') == params.slug)
   return (
     <main>
-    <h2 className="font-bold text-3xl text-center mt-10 capitalize">{platform.blog_title}</h2>
+    <h2 className="font-bold text-3xl text-center capitalize">{platform.blog_title}</h2>
     <Image src={platform.image} alt="plat" width={500} height={300} className="m-auto mt-10"/>
     <div className="text-center text-gray-400 text-xl capitalize">{platform.sub_title}</div>
     <div className="text-right mr-64 text-gray-600 font-medium text-[15px] space-x-2">

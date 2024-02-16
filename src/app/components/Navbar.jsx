@@ -1,25 +1,24 @@
-import Image from 'next/image'
-import React from 'react'
-import logo from '../logo/favicon-32x32.png'
-// import style from '../style.module.css'
+import Image from 'next/image';
+import logo from '../logo/favicon-32x32.png';
+import style from '../style.module.css';
+import Link from 'next/link';
+import Filtereditems from './Filtereditems';
 
-export default function 
-() {
+export default function Navbar() {
   return (
-    <nav className='flex md:flex-row flex-col justify-between h-[100px] items-center px-6 fixed right-0 left-0 bg-slate-300'>
-        <ul className='flex space-x-2 items-center'>
-            <li>
-                <Image src={logo} alt='logo' height={40} width={40}/>
-            </li>
-            <li>Blogging platform</li>
-        </ul>
-        <ul className='flex space-x-3 items-center capitalize'>
-            <li>our story</li>
-            <li>membership</li>
-            <li>sign in</li>
-            <li className='bg-green-800 hover:bg-green-950 rounded-3xl py-3 w-[100px] text-center text-white cursor-pointer'>get started</li>
-        </ul>
-
+    <nav className={`flex md:flex-row flex-col justify-between h-[100px] items-center px-6 right-0 left-0 bg-slate-300 ${style.navbar}`}>
+      <ul className='flex space-x-2 items-center'>
+        <li>
+          <Image src={logo} alt='logo' height={40} width={40} />
+        </li>
+        <li className='text-[15px]'>Blogging platform</li>
+      </ul>
+      <section className=' text-amber-600 '><Filtereditems/></section>
+      <ul className='flex space-x-3 items-center justify-around capitalize'>
+        <Link href='/' className='font-bold text-xl hover:underline text-zinc-800 cursor-pointer'>our story</Link>
+        <Link href='/login' className='hover:underline text-zinc-800'>sign in </Link>
+        <Link href='/started'className="capitalize hover:underline">get started</Link>
+      </ul>
     </nav>
-  )
+  );
 }

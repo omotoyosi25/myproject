@@ -1,10 +1,70 @@
 .pizza{
-    height: 200px;
+    height: 300px;
     width: 250px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .word {
     text-align: center;
     margin-bottom: 20px;
+}
+
+.hover{
+    background-color: green;
+}
+.hover:hover {
+  background-color: grey;
+}
+
+.entertainment {
+ height: 300px;
+ width: 250px;
+ border-radius: 10px;
+ margin-top: 10px;
+}
+
+.business{
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.politics{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+
+.input{
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.button{
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+
+.background{
+    border: 2px solid rgba(255, 255, 255, .2);
+    background: transparent;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.bromo{
+    background-image: url("/brono.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

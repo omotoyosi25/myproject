@@ -1,3 +1,5 @@
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 import './globals.css'
 import { Montserrat } from 'next/font/google'
 
@@ -12,7 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>{children}
+      <body className={montserrat.className}>
+        <section><Navbar/></section>
+        <main className='flex md:flex-row'>{children}</main>
+        <Footer className='grid md:grid-row'/>
       </body>
     </html>
   )
