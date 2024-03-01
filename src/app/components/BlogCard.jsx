@@ -15,7 +15,7 @@ export default function Filtereditems() {
 
     const cardDetails = itemfiltered.length > 0 ? itemfiltered.map((art, index) => (
         <article key={index} className='rounded-2xl bottom-2 border-solid border-gray-500'>
-            <div className='grid grid-cols-2 pl-8 space-x-2 py-6'>
+            <div className='grid grid-cols md:grid-cols-2 pl-8 space-x-2 py-6 '>
                 <div>
                     <Link href={`/blog/${art.sub_title.split(' ').join('')}`}>
                         <div>
@@ -24,14 +24,14 @@ export default function Filtereditems() {
                         </div>
                     </Link>
 
-                    <div className='space-x-2'>
+                    <div className=''>
                         <span>{art.date}</span>
                         <span>{art.read_time}</span>
-                        <span className='bg-gray-200 rounded-3xl w-[100px] text-center py-1 px-6'>{art.category}</span>
+                        <span className='bg-gray-200 rounded-3xl  text-center py-1 px-6'>{art.category}</span>
                     </div>
                 </div>
-                <div>
-                    <Image src={art.image} alt='blog-img' width={150} height={100} />
+                <div className="flex justify-center items-center">
+                    <Image src={art.image} alt='blog-img' width={150} height={100} className=""/>
                 </div>
             </div>
             
@@ -45,7 +45,7 @@ export default function Filtereditems() {
         <>
         <div>
             <div className="flex items-center justify-center my-5 border-t-black">
-                <input type="text" placeholder="Search category..." onChange={abibat} value={searchItem} className='w-[40%] outline-none  py-2 border-b-2 border-solid border-b-black'/>
+                <input type="text" placeholder="Search category..." onChange={abibat} value={searchItem} className=' outline-none  py-2 border-b-2 border-solid border-b-black'/>
             </div>
             <div>
 

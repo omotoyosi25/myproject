@@ -16,8 +16,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={montserrat.className}>
         <section><Navbar/></section>
-        <main className='flex md:flex-row'>{children}</main>
-        <Footer className='grid md:grid-row'/>
+        <main>{children}</main>
+        <Footer/>
       </body>
     </html>
   )

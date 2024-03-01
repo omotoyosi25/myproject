@@ -6,7 +6,7 @@ import Filtereditems from './Filtereditems';
 
 export default function Navbar() {
   return (
-    <nav className={`flex md:flex-row flex-col justify-between h-[100px] items-center px-6 right-0 left-0 bg-slate-300 ${style.navbar}`}>
+    <nav className={`flex md:flex-row flex-col justify-between h-[100px] items-center px-6 bg-slate-300 `}>
       <ul className='flex space-x-2 items-center'>
         <li>
           <Image src={logo} alt='logo' height={40} width={40} />

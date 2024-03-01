@@ -23,7 +23,7 @@ export default function Filtereditems() {
             <li className='hover:underline text-black hover:opacity-100 hover:text-slate-500 mt-4 capitalize px-4'>foods</li>
             </Link>
             <Link href='/sports'>
-            <li className='hover:underline text-black hover:opacity-100 hover:text-slate-500 mt-4 capitalize px-4'>sports</li>
+            <li className='hover:underline text-black hover:opacity-100 hover:text-slate-500 mt-4 capitalize'>sports</li>
             </Link>
             <Link href='/fashion'>
             <li className='hover:underline text-black hover:opacity-100 hover:text-slate-500 mt-4 capitalize px-4'>fashion</li>
