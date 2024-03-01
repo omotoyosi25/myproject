@@ -19,7 +19,7 @@ export default function page({params}) {
         </div>
 
         <div className='m-auto w-[60%]'>
-            {ent.content.map(entr => (
+            {ent.content.map((entr, index) => (
                 <p key={index} className='mt-4 text-justify'>{entr}</p>
             ))}
         </div>

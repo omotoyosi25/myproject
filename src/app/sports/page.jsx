@@ -91,7 +91,7 @@ const baller = ball.map(spot => (
   <article key={spot.id} className='grid justify-center items-center'>
     <Link href={`/sport/${spot.title.split(' ').join('')}`}>
     <Image src={spot.image} alt='spot' width={300} height={300} className={style.politics}/>
-    <h2 className='font-bold text-center'>{spot.title}</h2>
+    <h2 className='font-bold text-sm text-center'>{spot.title}</h2>
     </Link>
   </article>
 ))
@@ -99,7 +99,7 @@ const baller = ball.map(spot => (
 
 export default function page() {
   return (
-    <main className='grid grid-cols-3 m-auto'>
+    <main className='grid grid-cols-3 m-auto w-4/5'>
       {baller}
       </main>
   )

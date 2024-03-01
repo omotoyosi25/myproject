@@ -18,7 +18,7 @@ export default function page({params}) {
       
       </div>
       <div className="w-[60%] m-auto">
-        {foodies.article.map(art =>(
+        {foodies.article.map((art, index) =>(
           <p key={index} className="mt-4 text-justify">{art}</p>
         ))}
       </div>

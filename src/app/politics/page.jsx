@@ -92,7 +92,7 @@ const political = govern.map(govt => (
   <article key={govt.id} className='grid justify-center items-center'>
     <Link href={`/politic/${govt.title.split(' ').join('')}`}>
     <Image src={govt.image} alt='govt' width={300} height={300} className={style.politics}/>
-    <h2 className='font-bold text-center'>{govt.title}</h2>
+    <h2 className='font-bold text-xs'>{govt.title}</h2>
     </Link>
   </article>
 ))
@@ -100,6 +100,6 @@ const political = govern.map(govt => (
 
 export default function page() {
   return (
-    <main className='grid grid-cols-3 m-auto w-4/5 '>{political}</main>
+    <main className='grid grid-cols-3 m-auto w-4/5'>{political}</main>
   )
 }

@@ -5,31 +5,28 @@ export default function Filtereditems() {
     <nav>
         <ul className='flex text-[12px]'>
             <Link href='/entertainment'>
-            <li className='hover:underline text-amber-700 hover:text-amber-600 mt-4 capitalize px-4'>entertainment</li>
+            <li className='hover:underline text-black hover:opacity-100 hover:text-slate-500 mt-4 capitalize px-4'>entertainment</li>
             </Link>
             <Link href='/html'>
-            <li className='hover:underline text-amber-700 hover:text-amber-600 mt-4 capitalize px-4'>html</li>
+            <li className='hover:underline text-black hover:opacity-100 hover:text-slate-500 mt-4 capitalize px-4'>html</li>
             </Link>
             <Link href='/religion'>
-            <li className='hover:underline text-amber-700 hover:text-amber-600 mt-4 capitalize px-4'>religion</li>
+            <li className='hover:underline text-black hover:opacity-100 hover:text-slate-500 mt-4 capitalize px-4'>religion</li>
             </Link>
             <Link href='/business'>
-            <li className='hover:underline text-amber-700 hover:text-amber-600 mt-4 capitalize px-4'>business</li>
+            <li className='hover:underline text-black hover:opacity-100 hover:text-slate-500 mt-4 capitalize px-4'>business</li>
             </Link>
             <Link href='/politics'>
-            <li className='hover:underline text-amber-700 hover:text-amber-600 mt-4 capitalize px-4'>politics</li>
+            <li className='hover:underline text-black hover:opacity-100 hover:text-slate-500 mt-4 capitalize px-4'>politics</li>
             </Link>
             <Link href='/foods'>
-            <li className='hover:underline text-amber-700 hover:text-amber-600 mt-4 capitalize px-4'>foods</li>
+            <li className='hover:underline text-black hover:opacity-100 hover:text-slate-500 mt-4 capitalize px-4'>foods</li>
             </Link>
             <Link href='/sports'>
-            <li className='hover:underline text-amber-700 hover:text-amber-600 mt-4 capitalize px-4'>sports</li>
-            </Link>
-            <Link href='/javaScript'>
-            <li className='hover:underline text-amber-700 hover:text-amber-600 mt-4 capitalize px-4'>javaScript</li>
+            <li className='hover:underline text-black hover:opacity-100 hover:text-slate-500 mt-4 capitalize px-4'>sports</li>
             </Link>
             <Link href='/fashion'>
-            <li className='hover:underline text-amber-700 hover:text-amber-600 mt-4 capitalize px-4'>fashion</li>
+            <li className='hover:underline text-black hover:opacity-100 hover:text-slate-500 mt-4 capitalize px-4'>fashion</li>
             </Link>
         </ul>
     </nav>

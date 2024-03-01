@@ -4,7 +4,7 @@ import { FcGoogle }from "react-icons/fc"
 
 export default function page() {
   return (
-    <div>
+    <div className=" m-auto">
         <ul className='font-extrabold text-black text-xl mt-10 text-center mb-5'>
             <li className="capitalize">get started with</li>
             <div className="flex justify-center items-center">

@@ -10,7 +10,7 @@ export default function page() {
     <main>
       {/* <Navbar className=''/> */}
     <section>
-     {<EmblaCarousel/>}
+     {/* {<EmblaCarousel/>} */}
       <div className=''> 
       <BlogCard card = {blogCard}/>
       </div>

@@ -18,7 +18,7 @@ export default function page({params}) {
       <span>{foot.date_posted}</span>
       </div>
           <div className="w-[60%] m-auto">
-            {foot.article.map(con =>(
+            {foot.article.map((con, index) =>(
               <p key={index} className="mt-4 text-justify">{con}</p>
               ))}
           </div> 

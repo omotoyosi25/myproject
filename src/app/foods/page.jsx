@@ -93,7 +93,7 @@ const foodArticles = food.map(sushi => (
   <article key={sushi.id} className='text-center grid justify-center items-center'>
    <Link href={`/food/${sushi.food_title.split(' ').join('')}`}>
     <Image src={sushi.image} alt='sushi' className={style.pizza} height={300} width={300}/>
-    <span className='text-center mb-8 mt-2 font-bold text-xl'>
+    <span className='text-center mb-8 mt-2 font-bold text-xs'>
       {sushi.food_title}
     </span>
     </Link>

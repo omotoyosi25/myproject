@@ -1,10 +1,11 @@
-import { blogCard } from "@/app/components/BlogCard"
+import { blog } from "@/app/components/BlogFile"
 import Image from "next/image"
 
 export default function page({params}) {
-  const platform = blogCard.find(art => art.sub_title.split(' ').join('') == params.slug)
+  const platform = blog.find(art => art.sub_title.split(' ').join('') == params.slug)
+
   return (
-    <main>
+  <main>
     <h2 className="font-bold text-3xl text-center capitalize">{platform.blog_title}</h2>
     <Image src={platform.image} alt="plat" width={500} height={300} className="m-auto mt-10"/>
     <div className="text-center text-gray-400 text-xl capitalize">{platform.sub_title}</div>
@@ -17,11 +18,13 @@ export default function page({params}) {
       <span>{platform.read_time}</span>
       
       </div>
+      <main>
       <div className="w-[60%] m-auto">
-      {platform.article.map((art, index) => (
-      <p key={index} className="mt-4 text-justify">{art}</p>
-    ))}
+        {platform.article.map((art, index) => (
+          <p key={index} className="mt-4 text-justify">{art}</p>
+        ))}
       </div>
     </main>
+  </main>
   )
 }

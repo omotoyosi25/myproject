@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <main className={`flex justify-center items-center  min-h-screen ${styles.bromo}`}>
+    <main className={`flex justify-center items-center m-auto min-h-screen ${styles.bromo}`}>
         <div className={`w-96 text-white rounded p-10 ${styles.background}`}>
           <form action=".">
             <h1 className=" text-center font-bold text-2xl ">Login</h1>
@@ -29,35 +29,6 @@ export default function page() {
           </form>
         </div>
         </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

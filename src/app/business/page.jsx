@@ -55,7 +55,7 @@ export const contents =[
     <article key={busi.id} className='text-center grid justify-center items-center'>
         <Link href={`/bus/${busi.subtitle.split(' ').join('')}`}>
         <Image src={busi.images} alt='image' width={300} height={300} className={style.business}/>
-        <h2 className='text-xl font-bold'>
+        <h2 className='text-xs font-bold'>
             {busi.subtitle}
         </h2>
         </Link>
@@ -65,7 +65,7 @@ export const contents =[
 
 export default function page() {
   return (
-    <main className='grid grid-cols-3 mt-5 items-center'>
+    <main className='grid grid-cols-3 mt-5 items-center m-auto w-4/5'>
         {content}
     </main>
   )

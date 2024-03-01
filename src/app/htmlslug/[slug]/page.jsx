@@ -18,7 +18,7 @@ export default function page({params}) {
       <span>{coding.datePosted}</span>
       </div>
           <div className="w-[60%] m-auto">
-            {coding.content.map(cont =>(
+            {coding.content.map((cont, index) =>(
               <p key={index} className="mt-4 text-justify">{cont}</p>
               ))}
           </div>

@@ -17,7 +17,7 @@ export default function page({params}) {
       <span>{busy.read}</span>
       </div>
           <div className="w-[60%] m-auto">
-            {busy.articles.map(arti =>(
+            {busy.articles.map((arti, index) =>(
               <p key={index} className="mt-4 text-justify">{arti}</p>
               ))}
           </div>

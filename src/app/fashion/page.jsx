@@ -22,7 +22,7 @@ export const fash =
       ]
     },
     {
-      title: "Chic Sustainability: The Rise of Eco-Friendly Fashion Brands",
+      title: "Chic Sustainability",
       subtitle: "A Closer Look at Fashion's Green Revolution",
       id: "fashion002",
       author: "Olivia Green",
@@ -39,7 +39,7 @@ export const fash =
       ]
     },
     {
-      title: "The Art of Accessorizing: Elevating Your Outfit with Statement Pieces",
+      title: "The Art of Accessorizing",
       subtitle: "Discovering the Power of Fashion Accessories",
       id: "fashion003",
       author: "Gabriel Luxe",
@@ -73,7 +73,7 @@ export const fash =
       ]
     },
     {
-      title: "The Glamour of Vintage Fashion: Rediscovering Timeless Style",
+      title: "The Glamour of Vintage Fashion",
       subtitle: "Exploring the Allure of Fashion Through the Decades",
       id: "fashion005",
       author: "Sophia Vintage",
@@ -102,7 +102,7 @@ export const fash =
 
 export default function page() {
   return (
-    <div className='grid grid-cols-3 ml-10 bg-slate-100'>
+    <div className='grid grid-cols-3 m-auto w-4/5 bg-slate-100'>
         {cloth}
     </div>
   )

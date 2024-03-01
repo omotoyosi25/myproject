@@ -13,7 +13,7 @@ export default function Navbar() {
         </li>
         <li className='text-[15px]'>Blogging platform</li>
       </ul>
-      <section className=' text-amber-600 '><Filtereditems/></section>
+      <section className=' '><Filtereditems/></section>
       <ul className='flex space-x-3 items-center justify-around capitalize'>
         <Link href='/' className='font-bold text-xl hover:underline text-zinc-800 cursor-pointer'>our story</Link>
         <Link href='/login' className='hover:underline text-zinc-800'>sign in </Link>

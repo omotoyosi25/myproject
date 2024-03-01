@@ -92,7 +92,7 @@ export const faith = [
     <article key={fate.id} className='grid text-center justify-center m-auto'>
       <Link href={`/religions/${fate.title.split(' ').join('')}`}>
       <Image src={fate.image} alt='faith' width={300} height={300} className={style.entertainment}/>
-      <h2 className='font-bold text-xl'>{fate.title}</h2>
+      <h2 className='font-bold text-xs'>{fate.title}</h2>
       </Link>
     </article>
   ))
@@ -100,7 +100,7 @@ export const faith = [
 
 export default function page() {
   return (
-    <div className='grid grid-cols-3'>
+    <div className='grid grid-cols-3 m-auto w-4/5'>
       {relly}
     </div>
   )

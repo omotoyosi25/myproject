@@ -94,7 +94,7 @@ const codes = code.map(html => (
 
  export default function page() {
    return (
-     <div className="grid grid-cols-3">{codes}</div>
+     <div className="grid grid-cols-3 m-auto w-4/5">{codes}</div>
    )
  }
  

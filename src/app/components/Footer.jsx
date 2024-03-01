@@ -6,9 +6,9 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-between bg-slate-200 items-start capitalize py-6 px-10">
+    <footer className="flex justify-between bg-slate-500 items-start capitalize py-6 px-10">
       <ul className=" text-gray-600 text-[15px]">
-        <li className="font-bold capitalize text-gray-800 text-xl">get started</li>
+        <li className="font-bold capitalize text-gray-900 text-xl">get started</li>
         <Link href='/login'>
           <li className="hover:underline cursor-pointer">sign in</li>
         </Link>
@@ -28,42 +28,42 @@ export default function Footer() {
       </ul>
       <ul className=" text-gray-600 text-[15px]">
 
-          <li className="font-bold capitalize text-gray-800 text-xl hover:underline">blogs</li>
+          <li className="font-bold cursor-pointer capitalize text-gray-800 text-xl hover:underline">blogs</li>
 
         <Link href='/sports'>
           <li  className="hover:underline cursor-pointer hover:text-black">sports</li>
         </Link>
 
         <Link href='/javas'>
-          <li  className="hover:underline cursor-pointer">javaScript</li>
+          <li  className="hover:underline cursor-pointer hover:text-black">javaScript</li>
         </Link>
 
         <Link href='/business'>
-          <li  className="hover:underline cursor-pointer">business</li>
+          <li  className="hover:underline cursor-pointer hover:text-black">business</li>
         </Link>
 
         <Link href='/foods'>
-          <li  className="hover:underline cursor-pointer">foods</li>
+          <li  className="hover:underline cursor-pointer hover:text-black">foods</li>
         </Link>
 
         <Link href='/html'>
-          <li  className="hover:underline cursor-pointer">html</li>
+          <li  className="hover:underline cursor-pointer hover:text-black">html</li>
         </Link>
 
         <Link href='/sports'>
-          <li  className="hover:underline cursor-pointer">sports</li>
+          <li  className="hover:underline cursor-pointer hover:text-black">sports</li>
         </Link>
 
         <Link href='/fashion'>
-          <li  className="hover:underline cursor-pointer">fashion</li>
+          <li  className="hover:underline cursor-pointer hover:text-black">fashion</li>
         </Link>
 
         <Link href='/entertainment'>
-          <li  className="hover:underline cursor-pointer">entertainment</li>
+          <li  className="hover:underline cursor-pointer hover:text-black">entertainment</li>
         </Link>
 
         <Link href='/politics'>
-          <li  className="hover:underline cursor-pointer">politics</li>
+          <li  className="hover:underline cursor-pointer hover:text-black">politics</li>
         </Link>
 
         <Link href='/'>

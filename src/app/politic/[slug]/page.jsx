@@ -17,7 +17,7 @@ export default function page({params}) {
       <span>{gov.date_posted}</span>
       </div>
           <div className="w-[60%] m-auto">
-            {gov.content.map(con =>(
+            {gov.content.map((con, index) =>(
               <p key={index} className="mt-4 text-justify">{con}</p>
               ))}
           </div> 

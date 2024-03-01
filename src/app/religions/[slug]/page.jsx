@@ -19,7 +19,7 @@ export default function page({params}) {
       
       </div>
       <div className="w-[60%] m-auto">
-        {reli.content.map(con =>(
+        {reli.content.map((con, index) =>(
           <p key={index} className="mt-4 text-justify">{con}</p>
         ))}
       </div>
