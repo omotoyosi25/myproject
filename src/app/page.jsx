@@ -1,8 +1,8 @@
-import React from 'react'
-import Navbar from './components/Navbar'
+
 import { EmblaCarousel } from './components/Carousel'
-import BlogCard, { blogCard } from './components/BlogCard'
-import Filtereditems from './components/Filtereditems'
+import BlogCard from './components/BlogCard'
+import { blog } from './components/BlogFile'
+
 
 
 export default function page() {
@@ -12,7 +12,7 @@ export default function page() {
     <section>
      {/* {<EmblaCarousel/>} */}
       <div className=''> 
-      <BlogCard card = {blogCard}/>
+      <BlogCard card = {blog}/>
       </div>
       </section>
     </main>

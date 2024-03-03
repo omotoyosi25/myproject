@@ -56,10 +56,3 @@ export default function Filtereditems() {
     )
 }
 
-// export default function BlogCard() {
-//     return (
-//         <section>
-//             {cardDetails}
-//         </section>
-//     )
-// }
