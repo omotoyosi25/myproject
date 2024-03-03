@@ -1,4 +1,4 @@
-import { food } from '@/app/foods/page'
+import { food } from '@/app/components/BlogFile' 
 import Image from 'next/image'
 import style from './style/styl.module.css'
 
@@ -18,10 +18,16 @@ export default function page({params}) {
       
       </div>
       <div className="w-[60%] m-auto">
-        {foodies.article.map((art, index) =>(
-          <p key={index} className="mt-4 text-justify">{art}</p>
-        ))}
+        {foodies.article.map((art, index) =>{
+          return (
+            <p key={index} className="mt-4 text-justify">{art}</p>
+          )
+        })}
       </div>
+      {/* <h2>
+        {foodies.related_post.title}
+      </h2>
+      <Image src={foodies.related_post.images} alt='food' width={200} height={200}/> */}
     </main>
   )
 }

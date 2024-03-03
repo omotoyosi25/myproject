@@ -1,5 +1,5 @@
 import Link from "next/link"
-import {  FaApple, FaFacebookF  } from "react-icons/fa"
+import {  FaApple, FaFacebookF } from "react-icons/fa"
 import { FcGoogle }from "react-icons/fc"
 
 export default function page() {
@@ -17,10 +17,10 @@ export default function page() {
             <FcGoogle   className=" text-blue-900 "/>
             <li className=" mx-6">google</li>
             </div>
-            <div className='bg-gray-300 text-black mt-4 px-4 rounded-full shadow-x1  flex justify-between items-center'>
+            <Link href='https://www.facebook.com/c/abibatomotoyosiabdulraheem' className='bg-gray-300 text-black mt-4 px-4 rounded-full shadow-x1  flex justify-between items-center'>
             <FaFacebookF className=" text-blue-900"/>
             <li className=" mx-4">facebook</li>
-            </div>
+            </Link>
             </div>
             </div>
         </ul>

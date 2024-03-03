@@ -1,4 +1,4 @@
-import { contents } from "@/app/business/page"
+import { contents } from "@/app/components/BlogFile" 
 import Image from "next/image"
 
 export default function page({params}) {

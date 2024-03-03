@@ -1,4 +1,4 @@
-import { ball } from '@/app/sports/page'
+import { ball } from '@/app/components/BlogFile'
 import Image from 'next/image'
 
 

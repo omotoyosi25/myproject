@@ -1,4 +1,4 @@
-import { code } from '@/app/html/page'
+import { code } from '@/app/components/BlogFile' 
 import Image from 'next/image'
 
 

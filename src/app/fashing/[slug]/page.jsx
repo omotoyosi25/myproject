@@ -1,4 +1,4 @@
-import { fash } from "@/app/fashion/page"
+import { fash } from "@/app/components/BlogFile"
 import Image from "next/image"
 
 
@@ -11,7 +11,7 @@ export default function pages({params}) {
         <div className='text-gray-400 font-medium text-xl mt-5 text-center'>{tro.subtitle}</div>
         <div className='text-gray-600 text-right mr-64 font-medium text-[15px] space-x-2 mt-5'>
         <div className='flex items-center w-[60%] m-auto'>
-            <Image src={tro.auth_img} alt='imgage' width={30} height={30} className='rounded-full'/>
+            <Image src={tro.author_image} alt='imgage' width={30} height={30} className='rounded-full'/>
             <div className='text-[20px] capitalize font-semibold'>{tro.author}</div>
             </div>
             <div>{tro.date_posted}</div>

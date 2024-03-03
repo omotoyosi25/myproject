@@ -1,6 +1,8 @@
-import { faith } from '@/app/religion/page'
+import { faith } from '@/app/components/BlogFile'
 import Image from 'next/image'
 import React from 'react'
+
+
 
 export default function page({params}) {
     const reli = faith.find(fate => fate.title.split(' ').join('') == params.slug)

@@ -1,8 +1,7 @@
-import Image from 'next/image';
-import logo from '../logo/favicon-32x32.png';
-import style from '../style.module.css';
-import Link from 'next/link';
-import Filtereditems from './Filtereditems';
+import Image from 'next/image'
+import logo from '../logo/favicon-32x32.png'
+import Link from 'next/link'
+import Filtereditems from './Filtereditems'
 
 export default function Navbar() {
   return (

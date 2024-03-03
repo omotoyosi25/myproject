@@ -1,4 +1,4 @@
-import { govern } from '@/app/politics/page'
+import { govern } from '@/app/components/BlogFile'
 import Image from 'next/image'
 
 export default function page({params}) {

@@ -1,4 +1,4 @@
-import { entertain } from '@/app/entertainment/page'
+import { entertain } from '@/app/components/BlogFile' 
 import Image from 'next/image'
 import React from 'react'
 

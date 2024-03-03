@@ -1,4 +1,4 @@
-import { FaSquareFacebook, FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareFacebook, FaSquareXTwitter, FaInstagram } from "react-icons/fa6";
 import { ImYoutube } from "react-icons/im";
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-between bg-slate-500 items-start capitalize py-6 px-10">
+    <footer className="flex sm:flex-row justify-between bg-slate-500 items-start capitalize py-6 px-10">
       <ul className=" text-gray-600 text-[15px]">
         <li className="font-bold capitalize text-gray-900 text-xl">get started</li>
         <Link href='/login'>
@@ -32,10 +32,6 @@ export default function Footer() {
 
         <Link href='/sports'>
           <li  className="hover:underline cursor-pointer hover:text-black">sports</li>
-        </Link>
-
-        <Link href='/javas'>
-          <li  className="hover:underline cursor-pointer hover:text-black">javaScript</li>
         </Link>
 
         <Link href='/business'>
@@ -81,7 +77,7 @@ export default function Footer() {
         <li className="font-bold capitalize text-gray-800 text-xl">contact us</li>
         <li className="flex justify-between">
         <Link href='https://www.instagram.com/mo_bonike_?igsh=MWt2ZXRmazBpYWl4cA=='>
-          <Image src="/ig1.png" alt="insta" width={20} height={20}/>
+          <FaInstagram className=" text-fuchsia-600"/>
         </Link>
         <Link href='https://www.facebook.com/c/abibatomotoyosiabdulraheem'>
           <FaSquareFacebook className="text-blue-600"/>

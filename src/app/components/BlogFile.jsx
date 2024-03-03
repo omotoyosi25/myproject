@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const blog=[
     {
@@ -218,3 +217,642 @@ export default function BlogFile() {
     <div></div>
   )
 }
+
+
+export const food = [
+    {
+      id:1,
+      food_title: "Delicious Homemade Pizza",
+      // related_post:{
+      //   title:"foods",
+      //   images:"/pizza.jpg",
+      // },
+      image:"/pizza.jpg",
+      writer:"chef toyo",
+      writer_image:"/toyo.jpg",
+      read_time:"6 mins",
+      date:"nov-21",
+      article: [
+        "If you're a pizza lover, you'll be delighted to try our homemade pizza recipe. We start with a perfect pizza dough that's crispy on the outside and chewy on the inside. Next, we spread a rich tomato sauce made from ripe, sun-kissed tomatoes and top it with a generous amount of mozzarella cheese. Add your favorite toppings, whether it's classic pepperoni, fresh veggies, or gourmet options like prosciutto and arugula. Bake it to perfection, and you'll have a slice of heaven in every bite.",
+        "The secret to a fantastic homemade pizza is in the toppings. Fresh ingredients make all the difference. Visit your local farmers' market to pick up the ripest tomatoes, basil, and other veggies for the ultimate flavor. Don't forget to experiment with different cheeses and herbs to create your unique signature pizza. Whether you're hosting a pizza night with friends or enjoying a cozy evening in, our homemade pizza recipe is sure to impress.",
+        "To complete the experience, pair your homemade pizza with a bottle of your favorite wine or some ice-cold craft beer. Whether you're a traditionalist or an adventurous foodie, this homemade pizza recipe will satisfy your cravings and leave you craving for more."
+      ]
+    },
+    {
+      id:2,
+      food_title: "Chocolate Brownies",
+      image:"/brownies.jpg",
+      writer:"chef toyo",
+      read_time:"6 mins",
+      date:"nov-21",
+      writer_image:"/toyo.jpg",
+      article: [
+        "Indulge your sweet tooth with our mouthwatering chocolate brownies. These decadent treats are a chocolate lover's dream come true. Made with premium dark chocolate and a hint of espresso, our brownies are incredibly rich and fudgy. They're so good; you won't be able to stop at just one.",
+        "The key to perfect brownies is the quality of chocolate you use. Choose the best dark chocolate you can find, and it will make a world of difference. For an extra layer of flavor, add some chopped nuts or swirl in a generous portion of caramel. Whether you enjoy them warm with a scoop of vanilla ice cream or straight out of the oven, our chocolate brownies are a delightful indulgence.",
+        "If you're feeling generous, share these brownies with friends and family, but be prepared for them to ask for the recipe. These chocolate brownies are the ultimate comfort food, perfect for any occasion or just when you need a little pick-me-up."
+      ]
+    },
+    {
+      id:3,
+      food_title: "Spinach and Stuffed Chicken",
+      image:"/spinach.jpg",
+      writer:"chef toyo",
+      read_time:"6 mins",
+      date:"nov-21",
+      writer_image:"/toyo.jpg",
+      article: [
+        "Looking for an impressive yet easy-to-make dinner? Try our savory spinach and feta stuffed chicken recipe. It's a showstopper that's perfect for special occasions or a delightful weeknight meal. We start with boneless, skinless chicken breasts, which are stuffed with a delicious mixture of spinach, feta cheese, and garlic. The result is a juicy, flavorful chicken dish that will have your taste buds dancing.",
+        "To make this dish even more spectacular, we recommend serving it with a side of roasted vegetables or a light lemon garlic sauce. The combination of the creamy feta and the earthy spinach perfectly complements the tender chicken. Plus, it's a healthy option that doesn't skimp on taste. Your family and guests will love this flavorful, stuffed chicken recipe.",
+        "Whether you're a seasoned home chef or just getting started in the kitchen, our spinach and feta stuffed chicken is sure to impress. Give it a try and savor the delightful flavors in every bite."
+      ]
+    },
+    {
+      id:4,
+      food_title: "Mango and Avocado Salad",
+      image:"/salad.jpg",
+      writer:"chef toyo",
+      reading_time:"6 mins",
+      date:"nov-21",
+      writer_image:"/toyo.jpg",
+      article: [
+        "When it's hot outside, there's nothing quite as refreshing as a mango and avocado salad. This salad combines the sweetness of ripe mangoes with the creamy goodness of avocados, creating a harmonious blend of flavors and textures. It's a perfect side dish for summer barbecues or a light and healthy lunch option.",
+        "To make this salad, simply dice up some mangoes and avocados, toss them together, and drizzle with a zesty lime vinaigrette. You can also add some red onion, cilantro, and a pinch of chili flakes for a little extra kick. The combination of sweet, tangy, and creamy in every bite will transport your taste buds to a tropical paradise.",
+        "This mango and avocado salad is not only delicious but also packed with vitamins and nutrients. It's a great way to enjoy the abundance of fresh produce during the summer months. Try it once, and it might just become your new favorite salad recipe."
+      ]
+    },
+    {
+      id:5,
+      food_title: "Thai Cuisine",
+      image:"/cuisine.jpg",
+      writer:"chef toyo",
+      read_time:"6 mins",
+      date:"nov-21",
+      writer_image:"/toyo.jpg",
+      article: [
+        "Thai cuisine is renowned for its bold and vibrant flavors that tantalize the taste buds. From the spicy kick of red curry to the refreshing notes of lemongrass and lime, Thai dishes are a culinary adventure you don't want to miss. Whether you're a fan of street food or elegant dining, Thai cuisine has something for everyone.",
+        "One of the signature dishes of Thailand is Pad Thai, a stir-fried noodle dish that combines the sweetness of tamarind with the umami of fish sauce and the crunch of peanuts. It's a harmonious blend of flavors and textures that's sure to please your palate.",
+        "If you're up for a culinary challenge, you can try your hand at making green curry from scratch. The aromatic green curry paste, creamy coconut milk, and tender pieces of chicken or tofu come together to create a dish that's both comforting and exotic. Don't forget to garnish it with fresh Thai basil for an authentic touch."
+      ]
+    },
+    {
+      id:6,
+      food_title: "The Art of Sushi Making",
+      image:"/sushi.jpg",
+      writer:"chef toyo",
+      read_time:"6 mins",
+      date:"nov-21",
+      writer_image:"/toyo.jpg",
+      article: [
+        "Sushi is more than just a meal; it's a work of art. The delicate balance of flavors, textures, and presentation makes sushi a culinary masterpiece. While it may seem intimidating to make sushi at home, with a little practice and the right ingredients, you can become a sushi chef in your own kitchen.",
+        "Start with the basics by learning how to make sushi rice. The seasoning of the rice with rice vinegar, sugar, and salt is a crucial step in achieving that authentic sushi taste. Once you have your rice ready, you can experiment with various fillings like fresh fish, avocado, cucumber, and more.",
+        "Rolling sushi is an art in itself. Invest in a bamboo sushi rolling mat, nori (seaweed sheets), and a sharp knife. With practice, you'll be able to create beautiful sushi rolls that are as delicious as they are visually appealing. So, gather your ingredients and embark on a sushi-making journey!"
+      ]
+    },
+]
+
+export const entertain = [
+    {
+      id: 1,
+      title: "Unraveling the Enigma",
+      subtitle:"The Legacy of Christopher Nolan",
+      author: "Emily Turner",
+      auth_img: "/author1.jpg",
+      img: "/christ.jpg",
+      read_time: "8 min",
+      date_posted: "2023-02-15",
+      content: [
+        "Christopher Nolan's impact on the film industry is nothing short of legendary. Known for mind-bending narratives and visually stunning cinematography, Nolan has carved out a niche that sets him apart from other directors.",
+        "From 'Inception' to 'Interstellar,' Nolan's films are celebrated for their intricate plots that challenge audiences to think beyond the surface. His unique storytelling style, often involving non-linear timelines, has left an indelible mark on cinema.",
+        "Nolan's commitment to practical effects and in-camera techniques adds a layer of authenticity to his work. The combination of compelling storytelling and technical prowess has garnered him a dedicated fan base and critical acclaim.",
+        "As we explore the legacy of Christopher Nolan, it's essential to recognize his influence on a new generation of filmmakers. Many cite Nolan as a source of inspiration, and his impact on the industry will likely continue for years to come."
+      ]
+    },
+    {
+      id: 2,
+      title: "Behind the Scenes",
+      subtitle: "The Making of a Marvel Cinematic Universe Blockbuster",
+      author: "Alex Reynolds",
+      auth_img: "/author1.jpg",
+      img: "/marvel.jpg",
+      read_time: "10 min",
+      date_posted: "2023-03-10",
+      content: [
+        "The Marvel Cinematic Universe (MCU) has become a cultural phenomenon, captivating audiences worldwide. In this article, we'll take a behind-the-scenes look at the intricate process of bringing a Marvel blockbuster to life.",
+        "Crafting a successful MCU film involves meticulous planning, from the initial scriptwriting to the extensive pre-production work. The interconnected nature of the MCU requires careful coordination to maintain continuity across multiple storylines.",
+        "The production phase involves a colossal effort, with teams working on everything from set design and costume creation to special effects and choreography. The scale and ambition of MCU films contribute to their blockbuster status.",
+        "Post-production is where the magic truly happens. Visual effects, sound design, and editing bring the superhero universe to life. The attention to detail in post-production ensures that every frame contributes to the immersive experience."
+      ]
+    },
+    {
+      id: 3,
+      title: "Iconic Music Videos",
+      subtitle: "Exploring the Artistry Behind the Visuals",
+      author: "Jordan Smith",
+      auth_img: "/author1.jpg",
+      img: "/music.jpg",
+      read_time: "6 min",
+      date_posted: "2023-04-05",
+      content: [
+        "Music videos have evolved into a powerful form of artistic expression, shaping the perception of songs and artists alike. Join us as we delve into the world of iconic music videos and the creativity that goes into their production.",
+        "Directors and cinematographers play a crucial role in translating the essence of a song into a visual narrative. From Michael Jackson's 'Thriller' to Beyoncé's 'Formation,' iconic music videos often become inseparable from the songs themselves.",
+        "Choreography and costume design add layers of meaning to music videos, turning them into visual spectacles. The collaboration between musicians, directors, and creative teams results in memorable moments that stand the test of time.",
+        "The digital age has elevated music videos to new heights, with artists leveraging cutting-edge technology and innovative concepts. As we explore these iconic visuals, it becomes clear that music videos are an integral part of the modern entertainment landscape."
+      ]
+    },
+    {
+      id: 4,
+      title: "Gaming Renaissance",
+      subtitle: "The Evolution of Video Game Storytelling",
+      author: "Marcus Rodriguez",
+      auth_img: "/author1.jpg",
+      img: "/game.jpg",
+      read_time: "9 min",
+      date_posted: "2023-05-20",
+      content: [
+        "Video games have transcended their origins as simple diversions, evolving into immersive storytelling experiences. In this article, we'll trace the evolution of video game storytelling and its impact on the gaming industry.",
+        "The shift from linear narratives to open-world exploration has allowed gamers to shape their own stories. Games like 'The Witcher 3' and 'Red Dead Redemption 2' showcase the depth and complexity that storytelling in gaming has reached.",
+        "The integration of cinematic techniques, motion capture, and voice acting has elevated the storytelling capabilities of video games. Players now engage with emotionally resonant narratives that rival those found in other forms of entertainment.",
+        "The gaming renaissance is marked by a diverse range of genres and themes, from emotionally charged dramas to epic adventures. As technology continues to advance, the potential for immersive storytelling in video games is boundless."
+      ]
+    },
+    {
+      id: 5,
+      title: "Laugh Out Loud",
+      subtitle: "The Comedy Specials That Define a Generation",
+      author: "Sarah Johnson",
+      auth_img: "/author1.jpg",
+      img: "/comedy.jpg",
+      read_time: "7 min",
+      date_posted: "2023-06-12",
+      content: [
+        "Comedy specials have become a cultural touchstone, providing audiences with laughter and commentary on the human experience. Join us as we explore the comedy specials that have left an indelible mark on a generation.",
+        "Comedians like Dave Chappelle, Hannah Gadsby, and John Mulaney have redefined the comedy special genre. Their unique perspectives and fearless approach to storytelling have resonated with diverse audiences worldwide.",
+        "The evolution of comedy specials reflects societal changes, with comedians tackling relevant and often challenging topics. From social issues to personal anecdotes, these specials serve as both entertainment and a lens through which we view our world.",
+        "Streaming platforms have played a pivotal role in the accessibility and popularity of comedy specials. The ability to reach a global audience has allowed comedians to connect with fans on a broader scale, contributing to the cultural impact of their work."
+      ]
+    }
+]
+
+export const fash =[
+      {
+        title: "The Timeless Elegance of Monochrome Fashion",
+        subtitle: "Exploring the Beauty of Black and White Wardrobes",
+        id: "fashion001",
+        author: "Emma Styles",
+        author_image: "/author1.jpg",
+        image: "/monochrome.jpg",
+        read_time: "6 minutes",
+        date_posted: "2023-02-15",
+        content: [
+          "Embracing the simplicity and sophistication of monochrome fashion has been a hallmark of style for decades. In this article, we delve into the enduring appeal of black and white wardrobes, exploring how this classic aesthetic continues to shape the world of fashion.",
+          "The versatility of monochrome outfits allows for endless creativity. From chic office attire to glamorous evening looks, black and white ensembles effortlessly transition from one occasion to another. The timeless elegance of these color choices provides a canvas for individual expression and fashion experimentation.",
+          "Celebrities and fashion icons have consistently turned to monochrome outfits to make a statement on red carpets and runways. The absence of color emphasizes the cut, texture, and silhouette of garments, creating a visual impact that transcends trends. As we examine iconic monochrome moments, it becomes clear that simplicity can indeed be the ultimate sophistication.",
+          "Beyond aesthetics, the sustainability movement has embraced monochrome fashion for its timeless quality. Investing in key pieces in black and white ensures longevity in your wardrobe, reducing the need for constant replacements. This enduring style philosophy aligns seamlessly with the growing emphasis on sustainable and eco-friendly fashion choices.",
+          "As we navigate the ever-evolving landscape of fashion, the allure of monochrome endures. Whether you're a minimalist at heart or seeking a bold, striking look, the timeless elegance of black and white remains a reliable choice, making it a staple in every fashion enthusiast's collection."
+        ]
+      },
+      {
+        title: "Chic Sustainability",
+        subtitle: "A Closer Look at Fashion's Green Revolution",
+        id: "fashion002",
+        author: "Olivia Green",
+        author_image: "/author1.jpg",
+        image: "/brand.jpg",
+        read_time: "8 minutes",
+        date_posted: "2023-03-10",
+        content: [
+          "In an era where environmental consciousness is at the forefront of global discussions, the fashion industry is experiencing a transformative shift towards sustainability. This article explores the rise of eco-friendly fashion brands, their impact on the industry, and the growing importance of conscious consumer choices.",
+          "Sustainable fashion is no longer a niche trend but a powerful movement reshaping the industry. From using organic materials to adopting ethical production practices, eco-friendly brands are challenging the conventional norms of fast fashion. The emphasis on transparency and responsibility resonates with consumers who seek both style and a clear conscience.",
+          "The rise of eco-conscious celebrities and influencers has played a pivotal role in amplifying the message of sustainability. Through partnerships and endorsements, these figures use their platforms to promote brands that prioritize eco-friendly initiatives, influencing their followers to make mindful choices in their fashion consumption.",
+          "As consumers become more informed about the environmental impact of their purchases, the demand for sustainable fashion continues to grow. From recycled materials to cruelty-free manufacturing processes, brands are innovating to meet the expectations of a conscious consumer base. This paradigm shift signals a positive direction for the industry, encouraging a more responsible approach to style.",
+          "In the pursuit of chic sustainability, the fashion landscape is witnessing a refreshing wave of creativity. Designers are proving that ethical fashion can be just as stylish and trend-setting as conventional options. By supporting eco-friendly brands, consumers contribute to a greener future, where fashion and environmental responsibility coexist harmoniously."
+        ]
+      },
+      {
+        title: "The Art of Accessorizing",
+        subtitle: "Discovering the Power of Fashion Accessories",
+        id: "fashion003",
+        author: "Gabriel Luxe",
+        author_image: "/author1.jpg",
+        image: "/accessories.jpg",
+        read_time: "5 minutes",
+        date_posted: "2023-04-05",
+        content: [
+          "Fashion is not just about the clothes we wear; it's an expression of personal style, and accessories play a key role in elevating any outfit. In this article, we explore the art of accessorizing, delving into the transformative power of statement pieces and how they can redefine your entire look.",
+          "Accessories are the unsung heroes of fashion, capable of turning a simple ensemble into a head-turning statement. Whether it's a bold pair of earrings, an eye-catching handbag, or a statement belt, these additions can accentuate your style, adding flair and personality to even the most basic outfits.",
+          "The beauty of statement accessories lies in their ability to reflect the wearer's mood and personality. From bohemian chic to sleek and modern, the right accessory can convey a myriad of style narratives. Fashion enthusiasts are increasingly embracing the power of accessories as a means of self-expression and creativity.",
+          "Designers are also recognizing the importance of accessories as integral components of their collections. Runways showcase not only clothing but also the artful incorporation of statement accessories. This shift highlights the acknowledgment that fashion is a holistic concept where every detail contributes to the overall aesthetic.",
+          "As we celebrate the art of accessorizing, it's clear that the transformative power of statement pieces extends beyond mere embellishments. Accessories are storytellers, allowing individuals to curate their narrative through style. So, the next time you plan an outfit, don't underestimate the impact a well-chosen accessory can have on your overall look."
+        ]
+      },
+      {
+        title: "The Evolution of Street Style",
+        subtitle: "Tracing the Journey of Urban Fashion Trends",
+        id: "fashion004",
+        author: "Mason Streetwise",
+        author_image: "/author1.jpg",
+        image: "/street.jpg",
+        read_time: "7 minutes",
+        date_posted: "2023-05-20",
+        content: [
+          "Street style, once a subculture phenomenon, has evolved into a dominant force shaping global fashion trends. In this article, we take a journey through the evolution of street style, from its roots in urban communities to its current status as a pervasive influence on mainstream fashion.",
+          "Emerging from the streets of urban centers, street style was a rebellion against traditional fashion norms. It represented the raw and unfiltered expression of individuality, drawing inspiration from diverse subcultures such as punk, hip-hop, and skateboarding. Today, what was once considered counterculture has become a defining element of mainstream fashion.",
+          "The democratization of fashion through social media has played a pivotal role in the global embrace of street style. Platforms like Instagram and TikTok have turned street fashion influencers into style authorities, showcasing their unique interpretations of trends and inspiring fashion enthusiasts worldwide. The accessibility of these styles has blurred the lines between high fashion and streetwear.",
+          "Designers and fashion houses have also recognized the impact of street style on the industry. Collaborations between high-end brands and streetwear designers have become increasingly common, resulting in collections that seamlessly blend luxury with the urban aesthetic. This convergence has redefined the boundaries of what is considered high fashion.",
+          "As we celebrate the evolution of street style, it's evident that this cultural phenomenon is not just a passing trend. It has become a dynamic force that continues to shape the way we perceive and engage with fashion. Street style's ability to embrace diversity and authenticity ensures its enduring influence on the ever-evolving fashion landscape."
+        ]
+      },
+      {
+        title: "The Glamour of Vintage Fashion",
+        subtitle: "Exploring the Allure of Fashion Through the Decades",
+        id: "fashion005",
+        author: "Sophia Vintage",
+        author_image: "/author1.jpg",
+        image: "/vintage.jpg",
+        read_time: "9 minutes",
+        date_posted: "2023-06-12",
+        content: [
+          "Vintage fashion holds a unique allure, transporting us to different eras while retaining a timeless charm. In this article, we delve into the glamour of vintage fashion, exploring the enduring appeal of styles from the past and their resurgence in contemporary wardrobes.",
+          "Each decade has left an indelible mark on the fashion landscape, and vintage fashion allows us to revisit and reinterpret these iconic styles. Whether it's the flapper dresses of the Roaring Twenties or the bohemian vibes of the '70s, vintage fashion provides a rich tapestry of inspiration for the modern fashion enthusiast.",
+          "The sustainability movement has fueled the popularity of vintage fashion, with many recognizing the environmental benefits of embracing pre-loved clothing. Thrifting and vintage shopping have become not only a fashion statement but also an ethical choice, promoting a more circular approach to style consumption.",
+          "Celebrities and influencers embracing vintage fashion have further propelled its resurgence. Red carpet events featuring vintage gowns and social media posts showcasing thrifted finds have normalized the idea that fashion doesn't always have to be about the latest trends. Instead, it can be a celebration of enduring style and craftsmanship.",
+          "As we immerse ourselves in the glamour of vintage fashion, it's evident that the past continues to inspire and influence the present. The cyclical nature of fashion ensures that what was once fashionable can find new life and relevance in contemporary wardrobes, proving that true style is timeless."
+        ]
+      }
+]  
+
+export const code= [
+  {
+    title: "Mastering HTML Basics",
+    subtitle:"A Comprehensive Guide",
+    id: "html101",
+    authorName: "John Coder",
+    authorImage: "/author2.jpg",
+    image: "/html.jpg",
+    readTime: "10 min",
+    datePosted: "2023-01-15",
+    content: [
+      "HTML, or HyperText Markup Language, is the backbone of web development. In this comprehensive guide, we will explore the basics of HTML, from structuring your documents to understanding essential tags.",
+      "Whether you're a beginner or looking to refresh your skills, this article will provide you with the knowledge needed to create well-structured and semantically meaningful web pages.",
+      "Join us on this journey as we dive into the world of HTML and uncover the secrets to building a solid foundation for your web development endeavors."
+    ],
+  },
+  {
+    title: "Responsive Web Design",
+    subtitle:"Responsive Web Design with HTML and CSS",
+    id: "responsive_design",
+    authorName: "Emily Developer",
+    authorImage: "/author2.jpg",
+    image: "/tech1.webp",
+    readTime: "8 min",
+    datePosted: "2023-02-02",
+    content: [
+      "Creating websites that look great on any device is a must in today's digital landscape. In this article, we'll explore the principles of responsive web design using HTML and CSS.",
+      "Learn how to use media queries, flexible grids, and other techniques to ensure your web pages adapt seamlessly to different screen sizes. Follow practical examples to implement responsive design in your projects today!",
+      "Whether you're a frontend developer or just starting your coding journey, mastering responsive web design is essential for creating user-friendly and accessible websites.",
+    ],
+  },
+  {
+    title: "A Guide for Developers",
+    subtitle: "Optimizing HTML for Search Engines",
+    id: "seo_optimization",
+    authorName: "Sarah SEO",
+    authorImage: "/author2.jpg",
+    image: "/tech3.webp",
+    readTime: "12 min",
+    datePosted: "2023-03-10",
+    content: [
+      "Unlock the potential of your web pages by optimizing HTML for search engines. In this guide, we'll cover best practices for structuring your HTML to enhance search engine visibility and improve your website's ranking.",
+      "Discover the importance of meta tags, header tags, and other HTML elements in the context of SEO. Follow actionable tips to make your content more discoverable and increase organic traffic to your site.",
+      "Whether you're a seasoned developer or just getting started, this article will empower you to make your web pages stand out in the crowded online space."
+    ],
+  },
+  {
+    title: "The Power of HTML Forms",
+    sibtitle:"A Deep Dive into User Interaction",
+    id: "html_forms",
+    authorName: "Michael Formsmith",
+    authorImage: "/author2.jpg",
+    image: "/tech4.jpg",
+    readTime: "15 min",
+    datePosted: "2023-04-05",
+    content: [
+      "Forms are a fundamental part of web development, enabling user interaction and data collection. Join us in this in-depth exploration of HTML forms, from basic form elements to advanced techniques for creating interactive and user-friendly forms.",
+      "Learn how to validate user input, implement various form controls, and enhance the overall user experience. Whether you're building a simple contact form or a complex registration system, this article has you covered.",
+      "Stay tuned as we unravel the intricacies of HTML forms and empower you to create web applications that seamlessly interact with users."
+    ],
+  },
+  {
+    title: "Going Beyond HTML",
+    subtitle:"Exploring Advanced Frontend Technologies",
+    id: "advanced_frontend",
+    authorName: "Alex Techwizard",
+    authorImage: "/author2.jpg",
+    image: "/tech2.webp",
+    readTime: "18 min",
+    datePosted: "2023-05-20",
+    content: [
+      "HTML is the foundation, but the world of frontend development is vast and ever-evolving. Join us on a journey beyond HTML as we explore advanced frontend technologies and their role in creating modern, interactive web applications.",
+      "From JavaScript frameworks to CSS preprocessors, we'll delve into tools and technologies that elevate your frontend development skills. Stay informed about the latest trends and empower yourself to build cutting-edge web applications.",
+      "Whether you're a frontend enthusiast or a seasoned developer, this article will open doors to the exciting possibilities that lie beyond the basics of HTML."
+    ],
+  },
+]
+
+export const faith = [
+  {
+    id: 1,
+    title: "Exploring Sacred Festivals",
+    subtitle: "A Journey into the Spiritual Celebrations Across Cultures",
+    author: "Anna Mitchell",
+    author_image: "/author1.jpg",
+    image: "/religion.jpg",
+    read_time: "8 minutes",
+    date_posted: "2023-01-15",
+    content: [
+      "Sacred festivals hold a significant place in various religious traditions, offering moments of reflection, gratitude, and communal celebration. In this exploration, we will delve into the diverse sacred festivals celebrated across cultures, uncovering the spiritual significance that unites communities globally.",
+      "From Diwali's vibrant lights symbolizing the triumph of good over evil to Ramadan's month-long fasting fostering self-discipline and empathy, sacred festivals provide a cultural tapestry that weaves together ancient traditions and contemporary beliefs.",
+      "This article aims to transcend geographical boundaries, shedding light on lesser-known sacred festivals that carry profound spiritual meanings. By understanding and appreciating these diverse celebrations, we can foster interfaith understanding and enrich our own spiritual journeys.",
+      "Join us on this insightful journey as we explore the rituals, traditions, and spiritual significance of sacred festivals. Through shared stories and practices, we discover the common threads that bind us together in our collective pursuit of meaning and connection."
+    ]
+  },
+  {
+    id: 2,
+    title: "The Role of Faith",
+    subtitle: "Drawing Strength from Spiritual Beliefs During Challenges",
+    author: "David Patel",
+    author_image: "/author2.jpg",
+    image: "/religion.jpg",
+    read_time: "10 minutes",
+    date_posted: "2023-02-05",
+    content: [
+      "Faith has long been a source of solace and strength for individuals facing adversity. In this article, we will explore the transformative power of faith, examining how various religious beliefs provide a foundation for resilience in challenging times.",
+      "The stories of individuals who turn to their faith in times of hardship are both inspiring and universal. Whether it's through prayer, meditation, or rituals, faith becomes a guiding light that helps navigate the stormy seas of life.",
+      "We will delve into case studies and personal narratives, showcasing the ways in which faith communities come together to support one another during crises. The communal aspect of faith often plays a crucial role in fostering resilience and hope.",
+      "Join us in this exploration of the profound impact that faith can have on individuals and communities facing adversity. Through a deeper understanding of these experiences, we gain insights into the resilience of the human spirit and the role of spirituality in overcoming challenges."
+    ]
+  },
+  {
+    id: 3,
+    title: "Sacred Spaces",
+    subtitle: "A Visual and Spiritual Journey through Iconic Religious Sites",
+    author: "Sophia Rodriguez",
+    author_image: "/author3.jpg",
+    image: "/religion.jpg",
+    read_time: "12 minutes",
+    date_posted: "2023-03-20",
+    content: [
+      "Places of worship, whether grand cathedrals, ancient temples, or humble mosques, serve as physical embodiments of spiritual devotion. This article invites you on a captivating journey through some of the world's most iconic and sacred spaces, exploring their architectural marvels and spiritual significance.",
+      "Beyond their architectural beauty, these sacred spaces carry a deep spiritual resonance. From the serene ambiance of Buddhist monasteries to the awe-inspiring grandeur of cathedrals, each place of worship tells a unique story of faith and devotion.",
+      "Through stunning visuals and historical insights, we will uncover the cultural and religious diversity expressed in these sacred spaces. This visual and spiritual journey aims to foster appreciation for the rich tapestry of beliefs that adorn our world.",
+      "Join us as we virtually traverse continents and cultures, exploring the sacredness encapsulated within these architectural wonders. Through this exploration, we hope to inspire a sense of awe and reverence for the diverse ways in which humanity seeks the divine."
+    ]
+  },
+  {
+    id: 4,
+    title: "The Intersection",
+    subtitle: "Navigating the Relationship Between Faith and Scientific Inquiry",
+    author: "Dr. Jonathan Barnes",
+    author_image: "/author4.jpg",
+    image: "/religion.jpg",
+    read_time: "15 minutes",
+    date_posted: "2023-04-10",
+    content: [
+      "The relationship between science and religion has been a subject of debate for centuries. In this thought-provoking article, Dr. Jonathan Barnes, a renowned scientist and theologian, explores the intersections and dialogues between these seemingly divergent realms, shedding light on how they can coexist harmoniously.",
+      "Dr. Barnes will draw from his expertise in both fields to dismantle common misconceptions and stereotypes surrounding the supposed conflict between science and religion. The article will highlight instances where scientific inquiry and spiritual understanding complement each other.",
+      "Through careful analysis and historical examples, Dr. Barnes will navigate the complexities of this relationship, encouraging readers to embrace the idea that science and faith can coexist and even enhance our understanding of the universe.",
+      "Join us in this intellectually stimulating exploration as we seek to bridge the gap between science and religion. Driven by a spirit of inquiry and open-mindedness, this article aims to inspire conversations that transcend perceived boundaries."
+    ]
+  },
+  {
+    id: 5,
+    title: "Cultural Expressions of Faith",
+    subtitle: "Understanding the Creative Dimensions of Religious Practices",
+    author: "Elena Nguyen",
+    author_image: "/author5.jpg",
+    image: "/religion.jpg",
+    read_time: "14 minutes",
+    date_posted: "2023-05-18",
+    content: [
+      "The expressions of faith go beyond traditional rituals and extend into the realms of art, music, and cultural practices. In this enriching article, Elena Nguyen explores the diverse and creative ways in which different religious traditions express their spirituality through various art forms.",
+      "From the intricate artistry of religious paintings to the soul-stirring melodies of sacred music, cultural expressions of faith offer a profound insight into the beliefs and values that shape a community's identity.",
+      "This article will showcase examples of how religious rituals and ceremonies become works of art themselves, weaving together the spiritual and the aesthetic. The exploration will emphasize the role of creativity in fostering a deeper connection with the divine.",
+      "Join us in this celebration of the creative dimensions of faith as we explore the art, music, and rituals that contribute to the rich cultural tapestry of religious traditions worldwide. Through this exploration, we aim to highlight the universal language of creativity that transcends religious boundaries."
+    ]
+  }
+]
+
+export const contents =[
+  {
+    id: 1,
+    title: "Navigating Challenges and Embracing Opportunities",
+    subtitle:"The Future of Remote Work",
+    author: "John Smith",
+    authors_img: "/author2.jpg",
+    images: "/remote.jpg",
+    read: "2 mins",
+    dat: "Dec 8",
+    articles:[
+      "The business landscape is undergoing a radical shift towards remote work, presenting both challenges and opportunities for companies worldwide.",
+      "One of the key challenges companies face is maintaining effective communication and collaboration among remote teams. As the traditional office setting evolves, businesses must adapt by implementing robust digital communication tools and fostering a culture of virtual collaboration.",
+      "On the flip side, the move to remote work opens up new possibilities for talent acquisition. Companies can tap into a global pool of skilled professionals, fostering diversity and innovation. Embracing remote work isn't just a response to external circumstances; it's an investment in the future of work."
+    ]
+  },
+  {
+    id: 2,
+    title: "Navigating Economic Uncertainty: in a Volatile Market",
+    subtitle: "Strategies for Businesses",
+    author: "Emily Johnson",
+    authors_img: "/author2.jpg",
+    images: "/strategy.jpg",
+    read: "2 mins",
+    dat: "Dec 8",
+    articles: [
+      "In an era marked by economic uncertainty, businesses need resilient strategies to navigate through volatile markets and ensure long-term success.",
+      "Diversification is a key principle for mitigating risk. Companies should diversify their product or service offerings, customer base, and geographical presence. This strategy provides a buffer against economic downturns in specific sectors or regions.",
+      "Furthermore, agility is crucial. Businesses that can quickly adapt to changing market conditions, consumer behaviors, and technological advancements are better positioned to thrive. This adaptability requires a proactive approach to monitoring industry trends and a willingness to embrace innovation."
+    ]
+  },
+  {
+    id: 3,
+    title: "The Role of Sustainability in Business",
+    subtitle:"Building a Greener Future",
+    author: "Alexandra Green",
+    authors_img: "/author2.jpg",
+    images: "/sustaining.jpg",
+    read: "2 mins",
+    dat: "Dec 8",
+    articles: [
+      "Sustainability is no longer just a buzzword; it's a fundamental aspect of responsible business practices. Companies that prioritize sustainability not only contribute to environmental well-being but also enhance their brand reputation and attract a growing eco-conscious consumer base.",
+      "Implementing sustainable practices goes beyond environmental initiatives. It involves creating a holistic approach that considers social responsibility and ethical business conduct. From supply chain transparency to reducing carbon footprint, businesses play a crucial role in building a greener and more equitable future.",
+      "Consumers are increasingly making choices based on a company's commitment to sustainability. Embracing eco-friendly practices isn't just a moral obligation; it's a strategic move that can drive innovation, reduce costs, and position businesses as leaders in the global shift towards a more sustainable economy."
+    ]
+  }
+]
+
+export const govern =[
+    {
+      id: 1,
+      title: "The Changing Dynamics of Global Diplomacy",
+      subtitle: "Navigating the Complexities in the 21st Century",
+      author: "Emma Thompson",
+      author_image: "/author2.jpg",
+      image: "/global.jpg",
+      read_time: "8 mins",
+      date_posted: "2023-01-15",
+      content: [
+        "In an era marked by geopolitical shifts and technological advancements, the landscape of global diplomacy is undergoing a profound transformation. Traditional power dynamics are being challenged as new players assert themselves on the world stage. This article explores the factors shaping these changes and the challenges and opportunities they present for international relations.",
+        "As non-state actors gain influence and digital communication reshapes the way nations interact, the rules of diplomacy are evolving. The emergence of cyber warfare, economic interdependence, and global challenges like climate change require a reevaluation of diplomatic strategies. Navigating this intricate web demands innovative approaches that transcend traditional statecraft.",
+        "Furthermore, the rise of populist movements in various countries adds a layer of complexity to international relations. Leaders must balance domestic pressures with global responsibilities, and the success of diplomacy hinges on adaptability and foresight. The changing dynamics of global diplomacy demand a nuanced understanding of interconnected issues and a willingness to embrace collaborative solutions.",
+        "In the coming years, diplomats and policymakers will face the formidable task of fostering cooperation in an increasingly interconnected but uncertain world. As we examine the current state of global diplomacy, it becomes clear that strategic agility and effective communication are more crucial than ever to navigate the intricate web of international relations."
+      ]
+    },
+    {
+      id: 2,
+      title: "The Role of Social Media in Modern Politics",
+      subtitle: "Shaping Public Opinion and Redefining Campaigns",
+      author: "Johnathan Rodriguez",
+      author_image: "/author2.jpg",
+      image: "/social.jpg",
+      read_time: "6 mins",
+      date_posted: "2023-02-02",
+      content: [
+        "Social media has become an influential force in shaping political landscapes worldwide. As platforms like Facebook, Twitter, and Instagram connect billions of people, the impact on political discourse and campaigns is undeniable. This article delves into the role of social media in modern politics, exploring its strengths, challenges, and the implications for democratic processes.",
+        "One of the strengths of social media lies in its ability to provide a platform for diverse voices and opinions. Politicians can engage directly with their constituents, and citizens can participate in discussions that transcend traditional media narratives. However, this democratization of information comes with challenges, including the spread of misinformation and the polarization of public opinion.",
+        "In the realm of political campaigns, social media has revolutionized the way candidates connect with voters. From viral moments to targeted advertising, the digital landscape has become a crucial battleground. Yet, questions arise about the ethical use of data, the role of algorithms, and the potential for online platforms to influence electoral outcomes.",
+        "As we navigate this digital era, it is essential to critically examine the impact of social media on political processes. Striking a balance between free expression and responsible online engagement will be key to ensuring that social media remains a tool for democratic participation rather than a source of division and manipulation."
+      ]
+    },
+    {
+      id: 3,
+      title: "The Rise of Populism: A Global Phenomenon",
+      subtitle: "Analyzing Causes, Consequences, and Controversies",
+      author: "Sophie Chen",
+      author_image: "/author2.jpg",
+      image: "/popular.jpg",
+      read_time: "7 mins",
+      date_posted: "2023-02-20",
+      content: [
+        "In recent years, the world has witnessed a surge in populist movements, reshaping political landscapes across continents. This article aims to dissect the phenomenon of populism, examining its root causes, consequences for governance, and the controversies surrounding its rise.",
+        "Populism often emerges in response to economic disparities, cultural shifts, and a perceived disconnect between political elites and the general population. Leaders adopting populist rhetoric promise to champion the concerns of the 'common people' against established institutions. While this approach resonates with many, it also raises concerns about the erosion of democratic norms and institutions.",
+        "The consequences of populism extend beyond domestic politics, influencing foreign policy, international alliances, and global cooperation. As populist leaders challenge the status quo, they introduce a degree of unpredictability that can have far-reaching implications. This article delves into case studies from various regions to provide a nuanced understanding of the diverse manifestations and impacts of populism.",
+        "In a world grappling with complex challenges, understanding the dynamics of populist movements is essential for policymakers, analysts, and citizens alike. By unraveling the layers of this global phenomenon, we can engage in informed discussions and work towards fostering resilient democracies."
+      ]
+    },
+    {
+      id: 4,
+      title: "The Ethics of AI in Political Decision-Making",
+      subtitle: "Balancing Efficiency with Democratic Values",
+      author: "Michael Turner",
+      author_image: "/author2.jpg",
+      image: "/ai.jpg",
+      read_time: "9 mins",
+      date_posted: "2023-03-10",
+      content: [
+        "Artificial Intelligence (AI) is increasingly finding its way into the realm of political decision-making, promising efficiency and data-driven governance. However, the integration of AI in politics raises ethical questions about transparency, accountability, and the potential for bias. This article explores the delicate balance between leveraging AI for governance and upholding democratic principles.",
+        "Proponents argue that AI can enhance decision-making processes by analyzing vast amounts of data, predicting outcomes, and optimizing resource allocation. From policy formulation to crisis management, the applications of AI seem limitless. However, skeptics raise concerns about the opacity of algorithms, the risk of reinforcing existing biases, and the potential for undemocratic decision-making by machines.",
+        "As AI systems become more sophisticated, policymakers must grapple with the challenge of creating regulatory frameworks that ensure responsible and ethical use. Transparency, accountability, and public engagement are paramount to prevent the concentration of power in the hands of a few. Striking the right balance between harnessing the potential of AI and safeguarding democratic values is a pressing concern for the future of political governance.",
+        "This article invites readers to contemplate the ethical implications of AI in politics, encouraging a dialogue that will shape the responsible integration of technology into the decision-making processes that impact us all."
+      ]
+    },
+    {
+      id: 5,
+      title: "Climate Change Policy: Global Challenges and Collaborative Solutions",
+      subtitle: "Addressing the Urgency of Environmental Stewardship",
+      author: "Elena Rodriguez",
+      author_image: "/author.jpg",
+      image: "/climate.jpg",
+      read_time: "10 mins",
+      date_posted: "2023-04-05",
+      content: [
+        "As the global community grapples with the escalating impacts of climate change, the need for comprehensive and collaborative policy solutions has never been more urgent. This article delves into the challenges posed by climate change, the complexities of international cooperation, and the crucial role of political leaders in addressing this existential threat.",
+        "The scientific consensus on climate change is clear, and its consequences are already evident. Rising sea levels, extreme weather events, and biodiversity loss demand immediate action. Crafting effective climate policies requires a commitment to sustainable practices, international collaboration, and bold leadership.",
+        "However, achieving consensus among nations with varying priorities and interests is a formidable task. The article examines key international agreements, the role of grassroots movements, and the potential for green technologies to drive a sustainable transition. It emphasizes the importance of political will and public engagement in steering the course toward a more sustainable and resilient future.",
+        "In the face of this planetary challenge, political leaders have a historic responsibility to unite and implement policies that prioritize environmental stewardship. This article serves as a call to action, urging readers to consider the intersection of politics and the environment and the pivotal role political decisions play in shaping the future of our planet."
+      ]
+    }
+]
+
+export const ball =[
+  {
+    id: 1,
+    title: "Cinderella Stories in Sports",
+    subtitle: "Rise of the Unexpected Victors",
+    author: "Jane Doe",
+    author_image: "/author2.jpg",
+    image: "/cinderella.jpg",
+    read_time: "8 min",
+    date_posted: "2023-03-15",
+    article: [
+      "In the world of sports, there's nothing more exhilarating than witnessing an underdog rise to the occasion. From historic upsets in March Madness to unexpected triumphs in the Premier League, these Cinderella stories capture the essence of competition and resilience.",
+      "The unpredictability of sports is what keeps fans on the edge of their seats. These underdog victories not only showcase the power of determination but also challenge the status quo, proving that anything is possible in the world of athletics.",
+      "This article explores some of the most memorable underdog moments in sports history, celebrating the teams and individuals who defied the odds. From David vs. Goliath matchups to unlikely championship runs, we'll delve into the heartwarming and inspiring stories that make sports truly magical.",
+      "So, buckle up for a journey through the triumphs of the underestimated and discover why the allure of the underdog is an integral part of what makes sports so captivating."
+    ]
+  },
+  {
+    id: 2,
+    title: "Women Pioneers in the World of Sports",
+    subtitle: "Defying Gravity and Stereotypes",
+    author: "John Smith",
+    author_image: "/author2.jpg",
+    image: "/women.jpg",
+    read_time: "6 min",
+    date_posted: "2023-04-02",
+    article: [
+      "Extreme sports have long been dominated by male athletes, but a new wave of fearless women is breaking barriers and redefining what's possible. From rock climbing to snowboarding, these pioneers are not only defying gravity but also challenging gender stereotypes in the world of sports.",
+      "This article sheds light on the incredible achievements of women who have pushed the boundaries of extreme sports. We'll explore the stories of trailblazers who have overcome adversity, shattered glass ceilings, and paved the way for the next generation of female athletes.",
+      "As society embraces inclusivity and diversity, it's essential to recognize and celebrate the accomplishments of women in sports that were once considered male-dominated. Join us in acknowledging these extraordinary women who continue to inspire and elevate the world of extreme sports.",
+      "Prepare to be inspired as we showcase the indomitable spirit of these athletes, proving that passion and skill know no gender boundaries in the adrenaline-fueled realm of extreme sports."
+    ]
+  },
+  {
+    id: 3,
+    title: "The Evolution of eSports",
+    subtitle: "Competing in the Digital Arena",
+    author: "Alex Rodriguez",
+    author_image: "/author2.jpg",
+    image: "/esports.jpg",
+    read_time: "10 min",
+    date_posted: "2023-04-18",
+    article: [
+      "Once considered a niche subculture, eSports has undergone a remarkable transformation, emerging from the shadows to become a mainstream phenomenon. This article takes a deep dive into the evolution of eSports, tracing its roots, and exploring the factors that propelled it into the digital spotlight.",
+      "From casual gamers to professional leagues with multimillion-dollar prize pools, eSports has captured the attention of a global audience. We'll examine the rise of popular eSports titles, the development of dedicated arenas, and the cultural impact of competitive gaming on a new generation of fans.",
+      "As traditional sports and digital entertainment converge, eSports stands at the forefront of this dynamic shift. Join us in exploring the dynamic landscape of competitive gaming, from grassroots tournaments to international championships, and discover how eSports has become a cultural force to be reckoned with.",
+      "Whether you're a seasoned gamer or a newcomer to the world of eSports, this article provides insights into the industry's past, present, and exciting future as it continues to redefine the way we perceive and engage with competitive gaming."
+    ]
+  },
+  {
+    id: 4,
+    title: "The Impact of Sports Psychology",
+    subtitle: "Mind Over Matter on the Playing Field",
+    author: "Emily Johnson",
+    author_image: "/author2.jpg",
+    image: "/spots.jpg",
+    read_time: "7 min",
+    date_posted: "2023-05-05",
+    article: [
+      "In the realm of sports, the mental aspect often plays a crucial role in an athlete's success. Sports psychology has emerged as a game-changer, helping athletes harness the power of their minds to achieve peak performance. This article explores the profound impact of sports psychology on the playing field.",
+      "From visualization techniques to goal setting, sports psychologists work with athletes to enhance focus, resilience, and overall mental well-being. We'll delve into case studies of athletes who credit their success to the mental strategies learned through sports psychology, highlighting the symbiotic relationship between mind and body in the world of sports.",
+      "The discussion extends beyond individual athletes to team dynamics, as sports psychology principles are increasingly integrated into coaching strategies and team culture. Discover how a winning mindset can be cultivated and the ways in which sports psychology continues to revolutionize the way athletes approach their craft.",
+      "Whether you're an athlete looking to sharpen your mental game or a sports enthusiast intrigued by the psychology behind the victories, this article offers a comprehensive exploration of the transformative role sports psychology plays in the world of sports."
+    ]
+  },
+  {
+    id: 5,
+    title: "Behind the Scenes of Sports Event ",
+    subtitle: "Making Game Day a Seamless Experience",
+    author: "Mike Thompson",
+    author_image: "/author2.jpg",
+    image: "/event.jpg",
+    read_time: "9 min",
+    date_posted: "2023-05-20",
+    article: [
+      "While athletes take the spotlight during a game, there's a dedicated team working behind the scenes to ensure everything runs seamlessly. This article shines a light on the unsung heroes of sports events – the event management professionals who orchestrate the logistics and create memorable experiences for fans.",
+      "From coordinating stadium logistics to planning fan engagement activities, event managers play a pivotal role in the success of sports events. We'll explore the challenges they face, the innovative solutions they implement, and the passion that drives them to create unforgettable moments for both athletes and spectators.",
+      "Get an insider's perspective on what it takes to manage a major sports event, from the meticulous planning stages to the adrenaline-filled execution on game day. Discover the stories of those who work tirelessly behind the scenes to ensure that every aspect of the event, big or small, contributes to the overall success of the spectacle.",
+      "Join us in acknowledging the dedication of these event management professionals and gain a newfound appreciation for the intricate dance that unfolds behind the curtain, making every sports event a well-orchestrated masterpiece."
+    ]
+  }
+]
+

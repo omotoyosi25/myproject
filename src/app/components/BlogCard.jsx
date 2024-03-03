@@ -27,7 +27,7 @@ export default function Filtereditems() {
                     <div className=''>
                         <span>{art.date}</span>
                         <span>{art.read_time}</span>
-                        <span className='bg-gray-200 rounded-3xl  text-center py-1 px-6'>{art.category}</span>
+                        <Link href='/' className='bg-gray-200 rounded-3xl  text-center py-1 px-6'>{art.category}</Link>
                     </div>
                 </div>
                 <div className="flex justify-center items-center">
@@ -45,7 +45,7 @@ export default function Filtereditems() {
         <>
         <div>
             <div className="flex items-center justify-center my-5 border-t-black">
-                <input type="text" placeholder="Search category..." onChange={abibat} value={searchItem} className=' outline-none  py-2 border-b-2 border-solid border-b-black'/>
+                <input type="text" placeholder="Type your search here......" onChange={abibat} value={searchItem} className='w-[40%] outline-none  py-2 border-b-2 border-solid border-b-black'/>
             </div>
             <div>
 
