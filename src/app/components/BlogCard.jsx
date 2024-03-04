@@ -23,11 +23,10 @@ export default function Filtereditems() {
                             <h2 className='text-xl'>{art.sub_title}</h2>
                         </div>
                     </Link>
-
-                    <div className=''>
+                    <div className=' space-x-5 mt-5'>
                         <span>{art.date}</span>
                         <span>{art.read_time}</span>
-                        <Link href='/' className='bg-gray-200 rounded-3xl  text-center py-1 px-6'>{art.category}</Link>
+                        <span className='bg-gray-200 rounded-3xl cursor-pointer text-center py-1 px-6'>{art.category}</span>
                     </div>
                 </div>
                 <div className="flex justify-center items-center">
