@@ -22,6 +22,7 @@ export default function page() {
     </article>
   ))
 :
+
 <h2 className="flex items-center justify-center text-2xl text-red-700">No Results Found!</h2>
 
   return (
