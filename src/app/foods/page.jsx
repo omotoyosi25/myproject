@@ -24,7 +24,7 @@ const foodArticles =filtered.length > 0 ? filtered.map(sushi => (
   </article>
 ))
 :
-  <h2 className="flex items-center justify-center text-2xl text-red-700">No Results Found!</h2>
+<h2 className='flex justify-center items-center text-center m-auto text-2xl text-red-800'>No Search Results Found!!!</h2>
 
 return (
   <>
