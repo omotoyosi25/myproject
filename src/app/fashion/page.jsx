@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { fash } from '../components/BlogFile'
 import { useState } from 'react'
 
-export default function page() {
+export default function Page() {
   const [serve, setServe] = useState('')
   const clothing = fash.filter(cloth => cloth.title.toLowerCase().includes(serve.toLowerCase()))
   function abi(e){

@@ -5,7 +5,7 @@ import style from '../style.module.css'
 import Link from 'next/link'
 import { govern } from '../components/BlogFile'
 
-export default function page() {
+export default function Page() {
   const  [search, searchItem] = useState('')
   const politic = govern.filter(govt => govt.title.toLowerCase().includes(search.toLowerCase()))
   function abi(love){

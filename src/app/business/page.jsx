@@ -5,7 +5,7 @@ import style from "../style.module.css"
 import Link from 'next/link'
 import { contents } from '../components/BlogFile'
 
-export default function page() {
+export default function Page() {
   const [search, setSearch] = useState('')
   const goods = contents.filter(busi => busi.title.toLowerCase().includes(search.toLowerCase()))
   function abi(ei){

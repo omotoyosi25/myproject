@@ -6,7 +6,7 @@ import { faith } from '../components/BlogFile'
 import { useState } from 'react'
 
 
-export default function page() {
+export default function Page() {
   const [ search, setSearch] = useState('')
   const fates = faith.filter(fate => fate.title.toLowerCase().includes(search.toLowerCase()))
   function abi(e){

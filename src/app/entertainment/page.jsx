@@ -6,7 +6,7 @@ import { entertain } from "../components/BlogFile"
 import { useState } from "react"
 
 
-export default function page() {
+export default function Page() {
 const [searching, setsearch] =useState('')
 const enterer = entertain.filter(enter => enter.title.toLowerCase().includes(searching.toLowerCase()))
 function abi(e){

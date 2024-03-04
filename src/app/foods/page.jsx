@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { food } from "../components/BlogFile"
 
 
-export default function foods() {
+export default function Foods() {
 const [search, setsearch] = useState('')
 
 const filtered =  food.filter(sushi => sushi.food_title.toLowerCase().includes(search.toLowerCase()))

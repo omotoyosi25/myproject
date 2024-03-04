@@ -6,7 +6,7 @@ import { code } from "../components/BlogFile"
 import { useState } from "react"
 
 
-export default function page() {
+export default function Page() {
 const  [searchCode, setSearchCode]= useState('')
 const coders = code.filter(html => html.title.toLowerCase().includes(searchCode.toLowerCase()))
 function abi(e){

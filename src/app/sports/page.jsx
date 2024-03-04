@@ -5,7 +5,7 @@ import style from '../style.module.css'
 import { ball } from '../components/BlogFile'
 import { useState } from 'react'
 
-export default function page() {
+export default function Page() {
   const [ search, setSearch] = useState('')
   const bell = ball.filter (spot => spot.title.toLowerCase().includes(search.toLowerCase()))
   function abi(e){
